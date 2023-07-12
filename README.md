@@ -45,36 +45,36 @@
       <p>What are we doing</p>
         <img src="../goit-images/images/Rectangle71.jpg" alt="Desktop srceen showing opened window with draft" 
            width="360" 
-           hight="300"/>
+           height="300">
         <img src="../goit-images/images/Rectangle71(2).jpg" alt="Mobilephone showing advertisement with laptop in the background" 
            width="360" 
-           hight="300"/>
+           height="300">
         <img src="../goit-images/images/Rectangle7(13).jpg" alt="Inpiration for new app for mobilephones" 
            width="360" 
-           hight="300"/>
+           height="300">
       <p>Our Team</p>
         <figure>
         <img src="../goit-images/images/img.jpg" alt="Bearded person smiling wearing blue shirt" 
            width="264" 
-           hight="260"/>
+           height="260">
             <figcaption>Mark Guerrero Product Designer</figcaption>
         </figure>
         <figure>  
         <img src="../goit-images/images/img(1).jpg" alt="Nicely styled person smiling wearing blue shirt" 
           width="264" 
-          hight="260"/>
+          height="260">
             <figcaption>Tom Ford Frontend Developer</figcaption>
         </figure>
         <figure>
         <img src="../goit-images/images/img(2).jpg" alt="A woman wearing pink sweater with long brown hair" 
           width="264" 
-          hight="260"/>
+          height="260">
             <figcaption>Camilia Garcia Marketing</figcaption>
         </figure>
         <figure>
         <img src="../goit-images/images/img(3).jpg" alt="Person with beard and messy hair wearing gray t-shirt" 
           width="264" 
-          hight="260"/>
+          height="260">
             <figcaption>Daniel Wilson UI Designer</figcaption>
         </figure>  
     </main>
