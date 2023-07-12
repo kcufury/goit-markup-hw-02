@@ -58,14 +58,20 @@
            width="264px" 
            hight="260px"/>
             <figcaption>Mark Guerrero Product Designer</figcaption>
+        </figure>
+        <figure>  
         <img src="../goit-images/images/img(1).jpg" alt="Nicely styled person smiling wearing blue shirt" 
           width="264px" 
           hight="260px"/>
             <figcaption>Tom Ford Frontend Developer</figcaption>
+        </figure>
+        <figure>
         <img src="../goit-images/images/img(2).jpg" alt="A woman wearing pink sweater with long brown hair" 
           width="264px" 
           hight="260px"/>
             <figcaption>Camilia Garcia Marketing</figcaption>
+        </figure>
+        <figure>
         <img src="../goit-images/images/img(3).jpg" alt="Person with beard and messy hair wearing gray t-shirt" 
           width="264px" 
           hight="260px"/>
