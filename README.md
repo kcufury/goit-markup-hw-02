@@ -19,11 +19,11 @@
           </ul>
         </menu>
       </nav>
-      <nav>
+      <section>
         <!-- Contacts -->
         <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a href="tel:+11(000)111-11-11">+11(000)111-11-11</a>
-      </nav>
+      </section>
     </header>
     <main>
       <article>
@@ -31,6 +31,7 @@
         <button type="button">Order Service</button>
       </article>
       <article>
+      <section>
       <div class="container">
         <h3>Strategy</h3>
           <p>Our goal is to identify the business problem to walk away with the perfect and creative solution. </p>
@@ -41,7 +42,9 @@
         <h3>Technologies</h3>
           <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
       </div>
+      </section>
       </article>
+      <section>
       <p>What are we doing</p>
         <img src="../goit-images/images/Rectangle71.jpg" alt="Desktop srceen showing opened window with draft" 
            width="360" 
@@ -52,6 +55,8 @@
         <img src="../goit-images/images/Rectangle7(13).jpg" alt="Inpiration for new app for mobilephones" 
            width="360" 
            height="300">
+      </section>
+      <section>     
       <p>Our Team</p>
         <figure>
         <img src="../goit-images/images/img.jpg" alt="Bearded person smiling wearing blue shirt" 
@@ -76,10 +81,11 @@
           width="264" 
           height="260">
             <figcaption>Daniel Wilson UI Designer</figcaption>
-        </figure>  
+        </figure>
+        </section>  
     </main>
     <footer>
-      <a href="#">WEB<span>STUDIO</span></a>
+      <a href="#"><span>WEB</span>STUDIO</a>
       <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer>
   </body>
