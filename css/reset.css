@@ -19,3 +19,11 @@ textarea,
 select {
     font: inherit;
 }
+
+button {
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    appearance: none;
+    background-color: transparent;
+}
