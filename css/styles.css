@@ -2,15 +2,33 @@
     --color-background: white, #FFF;
     --color-background: navyblue, #2E2F42;
     --color-background: ocean, #404BBF;
+    --color-background: slate, #434455;
     
 
     --font-heading: 'Raleway', serif;
     --font-text: 'Roboto', sans-serif;
 
+    --font-color: slate, #434455;
     --font-color: iris, #4D5AE5;
     --font-color: navyblue, #2E2F42;
-    --font-color: slate, #434455;
+    
 
+}
+
+
+.fillter-web-links a:hover,
+.fillter-contact-links:hover {
+    color: var(--iris, #4D5AE5);
+}
+
+.fillter-web-links a:visited,
+.fillter-contacts-links a:visited {
+    color: var(rgb(153, 66, 8), #964B00);
+}
+
+.fillter-web-links a:active,
+.fillter-contact-links:active {
+    color: var(navyblue, #2E2F42);
 }
 
 header {
@@ -25,8 +43,17 @@ header {
             background: var(--white, #FFF);
 }
 
+body {
+    margin: 0;
+    min-height: 100%;
+    font-family: Roboto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
 button {
-    
         padding: 0;
         border: 0;
         text-decoration: none;
@@ -64,31 +91,22 @@ button {
     cursor: url(cursors/finger.svg), auto;
 }
 
+li a .fillter-contact-links {
+    --font-color: var(--slate, #434455);
+}
+
 .fillter-contact-links {
     display: flex;
+    --font-color: var(--slate, #434455);
     /* Body */
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 150%;
-    text-decoration-line: none;
-    text-decoration: none;
+    line-height: 1.5em;
     gap: 40px;
-    --font-color: var(--slate, #434455);
     /* 150% */
-    letter-spacing: 0.23px;
+    letter-spacing: 0.23px;   
 }
-
-body {
-    margin: 0 auto;
-    min-height: 100%;
-}
-
-a:link {
-    text-decoration: none;
-}
-
 
 .fillter-studio {
     display: flex;
@@ -100,7 +118,7 @@ a:link {
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
-        line-height: 116.667%;
+        line-height: 1.2em;
         text-decoration: none;
         text-decoration-line: none;
         text-decoration-style: none;
@@ -125,7 +143,7 @@ a:link {
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
-        line-height: 150%;
+        line-height: 1.5em;
         gap: 40px;
         align-items: flex-start;
         /* 150% */
@@ -146,7 +164,7 @@ nav li .fillter-links {
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
-        line-height: 116.667%;
+        line-height: 1.2em;
         /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase;
@@ -173,7 +191,7 @@ nav li .fillter-links {
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
-        line-height: 150%;
+        line-height: 1.5em;
         /* 150% */
         letter-spacing: 0.64px;
     padding: 16px 32px;
@@ -193,7 +211,7 @@ nav li .fillter-links {
         font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
-        line-height: 107.143%;
+        line-height: 1em;
         /* 107.143% */
         letter-spacing: 1.12px;
 }
@@ -208,7 +226,7 @@ nav li .fillter-links {
         font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
-        line-height: 107.143%;
+        line-height: 1em;
         /* 107.143% */
         letter-spacing: 1.12px;
 }
@@ -226,16 +244,10 @@ nav li .fillter-links {
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
-        line-height: 150%;
+        line-height: 1.5em;
         /* 150% */
         letter-spacing: 0.64px;
         cursor: url(cursors/finger.svg), auto;
-}
-
-.container {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 .side-info {
@@ -256,7 +268,7 @@ nav li .fillter-links {
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 120%;
+        line-height: 1.2em;
         /* 120% */
         letter-spacing: 0.4px;
         margin: 0px;
@@ -268,22 +280,6 @@ nav li .fillter-links {
     gap: 8px;
 }
 
-.fillter-paragraph-info {
-    display: flex;
-    width: 264px;
-    height: auto;
-    margin: 0px;
-    color: var(--slate, #434455);
-    
-        /* Body */
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 150%;
-        /* 150% */
-        letter-spacing: 0.32px;
-}
-
 .studio-info {
     width: 1128px;
     height: 412px;
@@ -292,26 +288,27 @@ nav li .fillter-links {
 }
 
 .fillter-team-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-        margin: 0px 0px 120px 0px;
+    flex-shrink: 0;
+    width: 1440px;
+    height: 732px;
+
 }
 
 .team   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--navyblue, #2E2F42);
         text-align: center;
         /* Header 2 */
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
-        line-height: 111.111%;
+        line-height: 1.1em;
         /* 111.111% */
         letter-spacing: 0.72px;
         text-transform: capitalize;
-        margin-top: 240px;
-        margin-bottom: 72px;
+        margin: 0;
 }
 
 .fillter-team-info {
@@ -333,7 +330,7 @@ nav li .fillter-links {
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 120%;
+        line-height: 1.2em;
         /* 120% */
         letter-spacing: 0.4px;
         gap: 8px;
@@ -347,9 +344,7 @@ nav li .fillter-links {
         /* Body */
         font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
+        line-height: 1.5em;
         /* 150% */
         letter-spacing: 0.32px;
         margin-top: 0px;
@@ -367,7 +362,7 @@ li {
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
-        line-height: 150%;
+        line-height: 1.5em;
         cursor: url(cursors/finger.svg), auto;
         /* 150% */
         letter-spacing: 0.64px;
@@ -388,7 +383,7 @@ li {
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
-        line-height: 150%;
+        line-height: 1.5em;
         gap: 24px; 
         /* 150% */
         letter-spacing: 0.64px;
@@ -426,7 +421,7 @@ li {
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 120%;
+        line-height: 1.2em;
         /* 120% */
         letter-spacing: 0.4px;
         width: 360px;
@@ -440,14 +435,14 @@ li {
 .fillter-portfolio-sidetext {
     display: flex;
         flex-direction: row;
-        width: 30px;
+        width: fit-content;
         height: 24px;
         color: var(--slate, #434455);
         /* Body */
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
-        line-height: 150%;
+        line-height: 1.5em;
         /* 150% */
         letter-spacing: 0.32px;
 }
@@ -471,7 +466,7 @@ li {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 116.667%;
+    line-height: 1.2em;
     text-decoration: none;
     text-decoration-line: none;
     text-decoration-style: none;
@@ -492,7 +487,7 @@ li {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 116.667%;
+    line-height: 1.2em;
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
@@ -507,8 +502,7 @@ li {
         /* Body */
         font-family: Roboto;
         font-size: 16px;
-        font-weight: 400;
-        line-height: 150%;
+        line-height: 1.5em;
         /* 150% */
         letter-spacing: 0.32px;
         margin: 0px 0px 0px 0px;
@@ -518,26 +512,39 @@ li {
 }
 
 .fillter-studio-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
+    width: 1128px;
+    height: 412px;
+    margin: 0px 0px 0px 0px;
        
 }
 
 .fillter-studio-paragraph {
     display: flex;
-    margin: 72px 0px 120px 0px;
         color: var(--navyblue, #2E2F42);
         text-align: center;
         /* Header 2 */
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
-        line-height: 111.111%;
+        line-height: 1.1em;
         /* 111.111% */
         letter-spacing: 0.72px;
         text-transform: capitalize;
         justify-content: center;
+}
+
+.fillter-paragraph-info {
+    width: 264px;
+    height: fit-content;
+    margin: 0px 0px 0px 0px;
+    color: var(--slate, #434455);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5em;
+    /* 150% */
+    letter-spacing: 0.32px;
 }
 
 .fillter-bottom-section a,
