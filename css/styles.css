@@ -91,9 +91,6 @@ button {
     cursor: url(cursors/finger.svg), auto;
 }
 
-li a .fillter-contact-links {
-    --font-color: var(--slate, #434455);
-}
 
 .fillter-contact-links {
     display: flex;
