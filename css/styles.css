@@ -1,8 +1,9 @@
 :root {
     --color-background: white, #FFF;
     --color-background: navyblue, #2E2F42;
-    --color-background: ocean, #404BBF;
-    --color-background: slate, #434455;
+    
+    --brand-color: ocean, #404BBF;
+    --brand-color: slate, #434455;
     
 
     --font-heading: 'Raleway', serif;
@@ -31,6 +32,82 @@
     color: var(navyblue, #2E2F42);
 }
 
+.container1 {
+    width: 1158px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container2 {
+    width: 1158px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+
+}
+
+.container3 {
+    width: 1158px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 120px;
+
+}
+
+.container-3 {
+    width: 1158px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 120px;
+    margin-top: 82px;
+}
+
+.container4 {
+    width: 1158px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container5 {
+    width: 1158px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.container6 {
+    width: 1158px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-between;
+    padding: 0;
+    margin-top: 72px;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -44,8 +121,11 @@ header {
 }
 
 body {
+    font-family: "Roboto", sans-serif;
     margin: 0;
+    width: 1440px;
     min-height: 100%;
+    background: var(--white, #FFF);
 }
 
 a:link {
@@ -84,6 +164,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
     padding: 0px;
     gap: 35px 40px;
     width: auto;
@@ -97,15 +178,26 @@ button {
 
 .fillter-contact-links {
     display: flex;
-    --font-color: var(--slate, #434455);
     /* Body */
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     gap: 40px;
     /* 150% */
     letter-spacing: 0.23px;   
+}
+
+.fillter-contact {
+    color: var(--slate, #434455);
+    /* Body */
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 1.5;
+        gap: 40px;
+        /* 150% */
+        letter-spacing: 0.23px;
 }
 
 .fillter-studio {
@@ -118,7 +210,7 @@ button {
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
-        line-height: 1.2em;
+        line-height: 1.2;
         text-decoration: none;
         text-decoration-line: none;
         text-decoration-style: none;
@@ -143,7 +235,7 @@ button {
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
-        line-height: 1.5em;
+        line-height: 1.5;
         gap: 40px;
         align-items: flex-start;
         /* 150% */
@@ -164,7 +256,7 @@ nav li .fillter-links {
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
-        line-height: 1.2em;
+        line-height: 1.2;
         /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase;
@@ -191,7 +283,7 @@ nav li .fillter-links {
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
-        line-height: 1.5em;
+        line-height: 1.5;
         /* 150% */
         letter-spacing: 0.64px;
     padding: 16px 32px;
@@ -211,7 +303,7 @@ nav li .fillter-links {
         font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
-        line-height: 1em;
+        line-height: 1.07;
         /* 107.143% */
         letter-spacing: 1.12px;
 }
@@ -226,7 +318,7 @@ nav li .fillter-links {
         font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
-        line-height: 1em;
+        line-height: 1.07;
         /* 107.143% */
         letter-spacing: 1.12px;
 }
@@ -244,7 +336,7 @@ nav li .fillter-links {
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
-        line-height: 1.5em;
+        line-height: 1.5;
         /* 150% */
         letter-spacing: 0.64px;
         cursor: url(cursors/finger.svg), auto;
@@ -253,10 +345,12 @@ nav li .fillter-links {
 .side-info {
     display: flex;
         justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0;
         gap: 24px;
         flex-direction: row;
         width: 264px;
-        margin-left: 304px;
 }
 
 .fillter-paragraph {
@@ -268,7 +362,7 @@ nav li .fillter-links {
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 1.2em;
+        line-height: 1.2;
         /* 120% */
         letter-spacing: 0.4px;
         margin: 0px;
@@ -288,9 +382,14 @@ nav li .fillter-links {
 }
 
 .fillter-team-section {
+    display: flex;
     flex-shrink: 0;
     width: 1440px;
     height: 732px;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+    margin-top: 120px;
 
 }
 
@@ -304,20 +403,21 @@ nav li .fillter-links {
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
-        line-height: 1.1em;
+        line-height: 1.11;
         /* 111.111% */
         letter-spacing: 0.72px;
         text-transform: capitalize;
-        margin: 0;
+        margin: auto;
+        flex-direction: column;
+        align-content: flex-start;
 }
 
 .fillter-team-info {
-    display: inline-flex;
-        padding-bottom: 0px;
+    display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 32px;
+        margin: auto;
         border-radius: 0px 0px 4px 4px;
             background: var(--white, #FFF);
             box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -330,7 +430,7 @@ nav li .fillter-links {
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 1.2em;
+        line-height: 1.2;
         /* 120% */
         letter-spacing: 0.4px;
         gap: 8px;
@@ -344,7 +444,7 @@ nav li .fillter-links {
         /* Body */
         font-family: Roboto;
         font-size: 16px;
-        line-height: 1.5em;
+        line-height: 1.5;
         /* 150% */
         letter-spacing: 0.32px;
         margin-top: 0px;
@@ -362,7 +462,7 @@ li {
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
-        line-height: 1.5em;
+        line-height: 1.5;
         cursor: url(cursors/finger.svg), auto;
         /* 150% */
         letter-spacing: 0.64px;
@@ -383,7 +483,7 @@ li {
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
-        line-height: 1.5em;
+        line-height: 1.5;
         gap: 24px; 
         /* 150% */
         letter-spacing: 0.64px;
@@ -391,16 +491,16 @@ li {
 }
 
 .portfolio-list {
-        margin-inline: 15% 15%;
         width: 360px;
+        padding: 0;
+        margin: 0;
         flex-direction: column;
         align-items: normal;
-        gap: 24px;
         flex-shrink: 0;
         background: var(--white, #FFF);
         display: grid;
-        padding: 1em;
         grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
 }
 
 .portfolio-list li {
@@ -421,7 +521,7 @@ li {
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 1.2em;
+        line-height: 1.2;
         /* 120% */
         letter-spacing: 0.4px;
         width: 360px;
@@ -441,8 +541,7 @@ li {
         /* Body */
         font-family: Roboto;
         font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5em;
+        line-height: 1.5;
         /* 150% */
         letter-spacing: 0.32px;
 }
@@ -451,6 +550,8 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: space-around;
+    align-items: center;
     width: auto;
     height: 312px;
     background: var(--navyblue, #2E2F42);
@@ -466,7 +567,7 @@ li {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 1.2em;
+    line-height: 1.2;
     text-decoration: none;
     text-decoration-line: none;
     text-decoration-style: none;
@@ -487,7 +588,7 @@ li {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 1.2em;
+    line-height: 1.16;
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
@@ -502,7 +603,7 @@ li {
         /* Body */
         font-family: Roboto;
         font-size: 16px;
-        line-height: 1.5em;
+        line-height: 1.5;
         /* 150% */
         letter-spacing: 0.32px;
         margin: 0px 0px 0px 0px;
@@ -512,21 +613,29 @@ li {
 }
 
 .fillter-studio-info {
+    display: flex;
+    margin: auto;
     width: 1128px;
     height: 412px;
-    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    margin-top: 120px;
        
+}
+
+.fillter-img {
+    display: flex;
 }
 
 .fillter-studio-paragraph {
     display: flex;
+    margin: 0;
         color: var(--navyblue, #2E2F42);
         text-align: center;
         /* Header 2 */
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
-        line-height: 1.1em;
+        line-height: 1.11;
         /* 111.111% */
         letter-spacing: 0.72px;
         text-transform: capitalize;
@@ -542,12 +651,7 @@ li {
     /* Body */
     font-family: Roboto;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
-}
-
-.fillter-bottom-section a,
-.fillter-bottom-section p {
-    margin-left: 165px;
 }
