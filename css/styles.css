@@ -1,15 +1,11 @@
 :root {
     --brand-color: iris, #4D5AE5;
-    
     --background-color: white, #FFFFFF;
     --background-color: ocean, #404BBF;
     --background-color: navyblue, #2E2F42;
     --background-color: --cloud, #f4f4fd;
-    
-
     --font-heading: 'Raleway', serif;
     --font-text: 'Roboto', sans-serif;
-
     --font-color: slate, #434455;
     --font-color: navyblue, #2E2F42;
     
