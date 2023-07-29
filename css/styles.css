@@ -1,9 +1,8 @@
 :root {
     --color-background: white, #FFF;
     --color-background: navyblue, #2E2F42;
-    
-    --brand-color: ocean, #404BBF;
-    --brand-color: slate, #434455;
+    --color-background: ocean, #404BBF;
+    --color-background: slate, #434455;
     
 
     --font-heading: 'Raleway', serif;
@@ -16,23 +15,31 @@
 
 }
 
-
-.fillter-web-links a:hover,
-.fillter-contact-links:hover {
+.fillter-web-links a:focus {
     color: var(--iris, #4D5AE5);
 }
 
-.fillter-web-links a:visited,
-.fillter-contacts-links a:visited {
-    color: var(rgb(153, 66, 8), #964B00);
+.fillter-web-links a:hover {
+    color: var(--iris, #4D5AE5);
 }
 
-.fillter-web-links a:active,
-.fillter-contact-links:active {
-    color: var(navyblue, #2E2F42);
+.social-links a:hover {
+    padding: 12px 24px;
+    border-radius: 4px;
+    color: var(--white, #FFF);
+    background: var(--ocean, #404BBF);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
-.container1 {
+.social-links a:focus {
+    padding: 12px 24px;
+        border-radius: 4px;
+        color: var(--white, #FFF);
+        background: var(--ocean, #404BBF);
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.container-1 {
     width: 1158px;
     display: flex;
     flex-direction: row;
@@ -41,7 +48,7 @@
     align-items: center;
 }
 
-.container2 {
+.container-2 {
     width: 1158px;
     display: flex;
     flex-direction: row;
@@ -53,7 +60,7 @@
 
 }
 
-.container3 {
+.container-3 {
     width: 1158px;
     margin: auto;
     display: flex;
@@ -65,7 +72,7 @@
 
 }
 
-.container-3 {
+.container-4 {
     width: 1158px;
     margin: auto;
     display: flex;
@@ -77,7 +84,7 @@
     margin-top: 82px;
 }
 
-.container4 {
+.container-5 {
     width: 1158px;
     display: flex;
     flex-direction: column;
@@ -86,7 +93,7 @@
     align-items: flex-start;
 }
 
-.container5 {
+.container-6 {
     width: 1158px;
     display: flex;
     flex-direction: row;
@@ -96,7 +103,7 @@
     margin: auto;
 }
 
-.container6 {
+.container-7 {
     width: 1158px;
     display: flex;
     flex-direction: column;
@@ -140,19 +147,6 @@ button {
         background-color: transparent;
 }
 
-.social-links li a:hover,   
-.social-links li a:focus {
-        padding: 12px 24px;
-        border-radius: 4px;
-        color: var(--white, #FFF);
-        background: var(--ocean, #404BBF);
-        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
-
-.container {
-    width: 1158px;
-}
-
 .social-links li a {
         padding: 12px 24px;
         border-radius: 4px;
@@ -171,7 +165,6 @@ button {
     height: 72px;
     flex-shrink: 0;
     color: var(--navyblue, #2E2F42);
-    cursor: url(cursors/finger.svg), auto;
 }
 
 
@@ -179,7 +172,6 @@ button {
     display: flex;
     /* Body */
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     line-height: 1.5;
     gap: 40px;
@@ -193,7 +185,6 @@ button {
     color: var(--slate, #434455);
     /* Body */
         text-align: center;
-        font-family: Roboto;
         font-size: 16px;
         line-height: 1.5;
         gap: 40px;
@@ -209,7 +200,6 @@ button {
     color: var(--iris, #4D5AE5);
         font-family: Raleway;
         font-size: 18px;
-        font-style: normal;
         font-weight: 800;
         line-height: 1.2;
         text-decoration: none;
@@ -233,7 +223,6 @@ button {
         /* Body Medium */
         width: 67px;
         height: 24px;
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -255,7 +244,6 @@ nav li .fillter-links {
     color: var(--navyblue, #2E2F42);
         font-family: Raleway;
         font-size: 18px;
-        font-style: normal;
         font-weight: 800;
         line-height: 1.2;
         /* 116.667% */
@@ -281,9 +269,9 @@ nav li .fillter-links {
 .fillter-service-btn {
     color: var(--white, #FFF);
         /* Button Text */
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
+        font-style: Roboto;
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.64px;
@@ -301,7 +289,6 @@ nav li .fillter-links {
     color: var(--white, #FFF);
         text-align: center;
         /* Header 1 */
-        font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
@@ -316,7 +303,6 @@ nav li .fillter-links {
         text-align: center;
     
         /* Header 1 */
-        font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
@@ -334,13 +320,12 @@ nav li .fillter-links {
         color: var(--iris, #4D5AE5);
         text-align: center;
         /* Button Text */
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.64px;
-        cursor: url(cursors/finger.svg), auto;
+        cursor: url(cursors/pointer.svg), auto;
 }
 
 .side-info {
@@ -360,7 +345,6 @@ nav li .fillter-links {
     width: 264px;
     color: var(--navyblue, #2E2F42);
         /* Header 3 */
-        font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -401,7 +385,6 @@ nav li .fillter-links {
     color: var(--navyblue, #2E2F42);
         text-align: center;
         /* Header 2 */
-        font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
@@ -428,7 +411,6 @@ nav li .fillter-links {
     color: var(--navyblue, #2E2F42);
         text-align: center;
         /* Header 3 */
-        font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -443,7 +425,6 @@ nav li .fillter-links {
     color: var(--slate, #434455);
         text-align: center;
         /* Body */
-        font-family: Roboto;
         font-size: 16px;
         line-height: 1.5;
         /* 150% */
@@ -460,11 +441,9 @@ li {
     color: var(--white, #FFF);
         text-align: inherit;
         /* Button Text */
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        cursor: url(cursors/finger.svg), auto;
         /* 150% */
         letter-spacing: 0.64px;
         text-decoration: none;
@@ -481,13 +460,13 @@ li {
         text-align: center;
         text-emphasis: none;
         text-decoration: none;
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         gap: 24px; 
         /* 150% */
         letter-spacing: 0.64px;
+        cursor: url(cursors/pointer.svg), auto;
        
 }
 
@@ -519,7 +498,6 @@ li {
     color: var(--navyblue, #2E2F42);
     
         /* Header 3 */
-        font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -540,7 +518,6 @@ li {
         height: 24px;
         color: var(--slate, #434455);
         /* Body */
-        font-family: Roboto;
         font-size: 16px;
         line-height: 1.5;
         /* 150% */
@@ -566,7 +543,6 @@ li {
     color: var(--iris, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.2;
     text-decoration: none;
@@ -587,7 +563,6 @@ li {
     color: var(--cloud, #F4F4FD);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.16;
     /* 116.667% */
@@ -602,7 +577,6 @@ li {
     height: fit-content;
     color: var(--cloud, #F4F4FD);
         /* Body */
-        font-family: Roboto;
         font-size: 16px;
         line-height: 1.5;
         /* 150% */
@@ -633,7 +607,6 @@ li {
         color: var(--navyblue, #2E2F42);
         text-align: center;
         /* Header 2 */
-        font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
@@ -650,7 +623,6 @@ li {
     color: var(--slate, #434455);
 
     /* Body */
-    font-family: Roboto;
     font-size: 16px;
     line-height: 1.5;
     /* 150% */
