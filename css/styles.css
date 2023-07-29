@@ -4,6 +4,7 @@
     --background-color: white, #FFFFFF;
     --background-color: ocean, #404BBF;
     --background-color: navyblue, #2E2F42;
+    --background-color: --cloud, #f4f4fd;
     
 
     --font-heading: 'Raleway', serif;
@@ -376,6 +377,7 @@ nav li .fillter-links {
     align-content: flex-start;
     align-items: center;
     margin-top: 120px;
+    
 
 }
 
@@ -390,7 +392,7 @@ nav li .fillter-links {
         font-weight: 700;
         line-height: 1.11;
         /* 111.111% */
-        letter-spacing: 0.72px;
+        letter-spacing: 0.02em;
         text-transform: capitalize;
         margin: 0;
         flex-direction: column;
