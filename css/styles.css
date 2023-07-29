@@ -35,10 +35,10 @@
 
 .social-links a:focus {
     padding: 12px 24px;
-        border-radius: 4px;
-        color: var(--white, #FFFFFF);
-        background: var(--ocean, #404BBF);
-        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 4px;
+    color: var(--white, #FFFFFF);
+    background: var(--ocean, #404BBF);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .container-1 {
@@ -126,7 +126,7 @@ header {
         align-items: center;
         flex-shrink: 0;
         border-bottom: 1px solid var(--cornflower, #E7E9FC);
-            background: var(--white, #FFFFFF);
+        background: var(--white, #FFFFFF);
 }
 
 body {
@@ -135,6 +135,7 @@ body {
     width: 1440px;
     min-height: 100%;
     background: var(--white, #FFFFFF);
+    color: var(--slate, #434455);
 }
 
 a:link {
@@ -150,10 +151,10 @@ button {
 }
 
 .social-links li a {
-        padding: 12px 24px;
-        border-radius: 4px;
-        border: 1px solid var(--cornflower, #E7E9FC);
-        background: var(--cloud, #F4F4FD);
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--cloud, #F4F4FD);
 }
 
 .fillter-web-links {
@@ -258,25 +259,25 @@ nav li .fillter-links {
     display: flex;
     background: var(--navyblue, #2E2F42);
     width: auto;
-        height: 600px;
-        flex-shrink: 0;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
+    height: 600px;
+    flex-shrink: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+     align-items: center;
 
 }
 
 .fillter-service-btn {
     color: var(--white, #FFFFFF);
-        /* Button Text */
-        font-size: 16px;
-        font-weight: 500;
-        font-style: Roboto;
-        line-height: 1.5;
-        /* 150% */
-        letter-spacing: 0.64px;
+    /* Button Text */
+    font-size: 16px;
+    font-weight: 500;
+    font-style: Roboto;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.64px;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
@@ -289,27 +290,26 @@ nav li .fillter-links {
     display: flex;
     width: 496px;
     color: var(--white, #FFFFFF);
-        text-align: center;
-        /* Header 1 */
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07;
-        /* 107.143% */
-        letter-spacing: 1.12px;
+    text-align: center;
+    /* Header 1 */
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    /* 107.143% */
+    letter-spacing: 1.12px;
 }
 
 .order-service {
     align-items: center;
     width: 496px;
     color: var(--white, #FFFFFF);
-        text-align: center;
-    
-        /* Header 1 */
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07;
-        /* 107.143% */
-        letter-spacing: 1.12px;
+    text-align: center;
+    /* Header 1 */
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    /* 107.143% */
+    letter-spacing: 1.12px;
 }
 
 .fillter-order-service {
@@ -319,26 +319,26 @@ nav li .fillter-links {
     border: none;
     background: none;
     text-transform: uppercase;
-        color: var(--iris, #4D5AE5);
-        text-align: center;
-        /* Button Text */
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        /* 150% */
-        letter-spacing: 0.64px;
-        cursor: url(cursors/pointer.svg), auto;
+    color: var(--iris, #4D5AE5);
+    text-align: center;
+    /* Button Text */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.64px;
+    cursor: url(cursors/pointer.svg), auto;
 }
 
 .side-info {
     display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-        gap: 24px;
-        flex-direction: row;
-        width: 264px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+    flex-direction: row;
+    width: 264px;
 }
 
 .fillter-paragraph {
@@ -346,13 +346,13 @@ nav li .fillter-links {
     height: auto;
     width: 264px;
     color: var(--navyblue, #2E2F42);
-        /* Header 3 */
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        /* 120% */
-        letter-spacing: 0.4px;
-        margin: 0px;
+    /* Header 3 */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.4px;
+    margin: 0px;
 }
 
 .fillter-row-info {
@@ -377,7 +377,7 @@ nav li .fillter-links {
     align-content: flex-start;
     align-items: center;
     margin-top: 120px;
-    background-color: var(--cloud, #f4f4fd);
+    background: var(--cloud, #f4f4fd);
     
 
 }
@@ -387,17 +387,17 @@ nav li .fillter-links {
     justify-content: center;
     align-items: center;
     color: var(--navyblue, #2E2F42);
-        text-align: center;
-        /* Header 2 */
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        /* 111.111% */
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        margin: 0;
-        flex-direction: column;
-        align-content: flex-start;
+    text-align: center;
+    /* Header 2 */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin: 0;
+    flex-direction: column;
+    align-content: flex-start;
 }
 
 .fillter-team-info {
@@ -407,8 +407,8 @@ nav li .fillter-links {
         align-items: center;
         margin: auto;
         border-radius: 0px 0px 4px 4px;
-            background: var(--white, #FFFFFF);
-            box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+        background: var(--white, #FFFFFF);
+        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .fillter-team-names {
