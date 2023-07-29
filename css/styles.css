@@ -139,6 +139,10 @@ body {
 
 }
 
+h1 {
+    visibility: hidden;
+}
+
 a:link {
     text-decoration: none;
 }
