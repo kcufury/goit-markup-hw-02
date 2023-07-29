@@ -134,6 +134,7 @@ body {
     margin: 0;
     width: 1440px;
     min-height: 100%;
+    color: #434455;
     background: var(--white, #FFF);
 }
 
@@ -160,12 +161,17 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     margin: 0;
     padding: 0px;
     gap: 35px 40px;
     width: auto;
     height: 72px;
     flex-shrink: 0;
+    list-style: none;
     color: var(--navyblue, #2E2F42);
 }
 
@@ -199,17 +205,19 @@ button {
     width: 44px;
     height: fit-content;
     padding: 0px;
-    color: var(--iris, #4D5AE5);
+    color: var(--navyblue,#2E2F42);
         font-family: Raleway;
         font-size: 18px;
         font-weight: 800;
-        line-height: 1.16;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         text-decoration: none;
         text-decoration-line: none;
         text-decoration-style: none;
         /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase;
+        text-decoration: none;
 }
 
 .fillter-menu-links {
