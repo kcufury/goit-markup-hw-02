@@ -139,7 +139,7 @@ body {
 
 }
 
-h1 {
+.hidden-heading {
     visibility: hidden;
 }
 
