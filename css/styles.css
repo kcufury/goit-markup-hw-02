@@ -1,16 +1,17 @@
 :root {
-    --color-background: white, #FFF;
-    --color-background: navyblue, #2E2F42;
-    --color-background: ocean, #404BBF;
-    --color-background: slate, #434455;
+    --brand-color: iris, #4D5AE5;
+    
+    background: white, #FFF;
+    background: ocean, #404BBF;
+    background: navyblue, #2E2F42;
     
 
     --font-heading: 'Raleway', serif;
     --font-text: 'Roboto', sans-serif;
 
-    --font-color: slate, #434455;
-    --font-color: iris, #4D5AE5;
-    --font-color: navyblue, #2E2F42;
+    color: slate, #434455;
+    color: navyblue, #2E2F42;
+    
     
 
 }
@@ -122,6 +123,7 @@ header {
         justify-content: space-around;
         height: 72px;
         align-items: center;
+        line-height: 1.17;
         flex-shrink: 0;
         border-bottom: 1px solid var(--cornflower, #E7E9FC);
             background: var(--white, #FFF);
@@ -201,7 +203,7 @@ button {
         font-family: Raleway;
         font-size: 18px;
         font-weight: 800;
-        line-height: 1.2;
+        line-height: 1.16;
         text-decoration: none;
         text-decoration-line: none;
         text-decoration-style: none;
@@ -245,7 +247,7 @@ nav li .fillter-links {
         font-family: Raleway;
         font-size: 18px;
         font-weight: 800;
-        line-height: 1.2;
+        line-height: 1.16;
         /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase;
@@ -345,7 +347,7 @@ nav li .fillter-links {
     width: 264px;
     color: var(--navyblue, #2E2F42);
         /* Header 3 */
-        font-size: 20px;
+        font-size: 56px;
         font-weight: 500;
         line-height: 1.2;
         /* 120% */
@@ -385,7 +387,7 @@ nav li .fillter-links {
     color: var(--navyblue, #2E2F42);
         text-align: center;
         /* Header 2 */
-        font-size: 36px;
+        font-size: 56px;
         font-weight: 700;
         line-height: 1.11;
         /* 111.111% */
@@ -544,7 +546,7 @@ li {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.2;
+    line-height: 1.16;
     text-decoration: none;
     text-decoration-line: none;
     text-decoration-style: none;
@@ -607,7 +609,7 @@ li {
         color: var(--navyblue, #2E2F42);
         text-align: center;
         /* Header 2 */
-        font-size: 36px;
+        font-size: 56px;
         font-weight: 700;
         line-height: 1.11;
         /* 111.111% */
