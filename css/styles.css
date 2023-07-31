@@ -16,12 +16,18 @@
 
 }
 
-.fillter-web-links a:focus,
+.fillter-web-links a:focus {
+    color: var(--iris, #4D5AE5);
+}
+
 .fillter-web-links a:hover {
     color: var(--iris, #4D5AE5);
 }
 
-.fillter-contact:focus,
+.fillter-contact:focus {
+    color: var(--iris, #4D5AE5);
+}
+
 .fillter-contact:hover {
     color: var(--iris, #4D5AE5);
 }
