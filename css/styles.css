@@ -17,11 +17,11 @@
 }
 
 .fillter-web-links a:focus {
-    color: var(--iris, #4D5AE5);
+    color: var(--ocean, #404bbf);
 }
 
 .fillter-web-links a:hover {
-    color: var(--iris, #4D5AE5);
+    color: var(--ocean, #404bbf);
 }
 
 .fillter-contact:focus {
@@ -209,12 +209,12 @@ button {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     text-decoration: none;
     text-decoration-line: none;
     text-decoration-style: none;
     /* 116.667% */
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -237,7 +237,7 @@ button {
         gap: 40px;
         align-items: flex-start;
         /* 150% */
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
 
 nav li .fillter-links {
@@ -253,9 +253,9 @@ nav li .fillter-links {
         font-family: Raleway;
         font-size: 18px;
         font-weight: 800;
-        line-height: 1.16;
+        line-height: 1.17;
         /* 116.667% */
-        letter-spacing: 0.54px;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
@@ -289,6 +289,14 @@ nav li .fillter-links {
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.fillter-service-btn:hover {
+    background-color: var(--iris, #404BBF);
+}
+
+.fillter-service-btn:focus {
+    background-color: var(--iris, #404BBF);
 }
 
 .fillter-business {
@@ -332,7 +340,7 @@ nav li .fillter-links {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.64px;
-    cursor: url(cursors/pointer.svg), auto;
+    cursor: pointer;
 }
 
 .side-info {
@@ -356,7 +364,7 @@ nav li .fillter-links {
     font-weight: 500;
     line-height: 1.2;
     /* 120% */
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
     margin: 0px;
 }
 
@@ -437,7 +445,7 @@ nav li .fillter-links {
         font-size: 16px;
         line-height: 1.5;
         /* 150% */
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
         margin-top: 0px;
 }
 
@@ -454,10 +462,10 @@ li {
     font-weight: 500;
     line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     text-decoration: none;
     padding: 12px 24px;
-    cursor: url(cursors/pointer.svg), auto;
+    cursor: pointer;
 }
 
 .social-links {
@@ -468,12 +476,7 @@ li {
         text-align: center;
         text-emphasis: none;
         text-decoration: none;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        gap: 24px; 
-        /* 150% */
-        letter-spacing: 0.64px;     
+        cursor: pointer;  
 }
 
 .social-links li a {
@@ -509,13 +512,12 @@ li {
     width: 290px;
     height: 24px;
     color: var(--navyblue, #2E2F42);
-    
         /* Header 3 */
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         /* 120% */
-        letter-spacing: 0.4px;
+        letter-spacing: 0.02em;
         width: 360px;
         height: 420px;
         padding-bottom: 0px;
@@ -534,7 +536,7 @@ li {
         font-size: 16px;
         line-height: 1.5;
         /* 150% */
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
 
 .fillter-bottom-section {
@@ -557,12 +559,12 @@ li {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.2;
+    line-height: 1.17;
     text-decoration: none;
     text-decoration-line: none;
     text-decoration-style: none;
     /* 116.667% */
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -577,11 +579,10 @@ li {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     /* 116.667% */
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    
 }
 
 .fillter-footer-info {
@@ -597,7 +598,6 @@ li {
         margin: 0px 0px 0px 0px;
         gap: 18px;
         justify-content: center
-        
 }
 
 .fillter-studio-info {
@@ -607,7 +607,6 @@ li {
     height: 412px;
     flex-direction: column;
     margin-top: 120px;
-       
 }
 
 .fillter-img {
@@ -624,7 +623,7 @@ li {
         font-weight: 700;
         line-height: 1.11;
         /* 111.111% */
-        letter-spacing: 0.72px;
+        letter-spacing: 0.02em;
         text-transform: capitalize;
         justify-content: center;
 }
@@ -634,10 +633,9 @@ li {
     height: fit-content;
     margin: 0px 0px 0px 0px;
     color: var(--slate, #434455);
-
     /* Body */
     font-size: 16px;
     line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
