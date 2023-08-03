@@ -2,7 +2,7 @@
     --background-color: white, #FFFFFF;
     --background-color: ocean, #404BBF;
     --background-color: navyblue, #2E2F42;
-    --background-color: --cloud, #f4f4fd;
+    --background-color: cloud, #f4f4fd;
     
     --font-heading: 'Raleway', serif;
     --font-text: 'Roboto', sans-serif;
@@ -17,11 +17,11 @@
 }
 
 .fillter-web-links a:focus {
-    color: var(--ocean, #404bbf);
+    color: var(--iris, #4D5AE5);
 }
 
 .fillter-web-links a:hover {
-    color: var(--ocean, #404bbf);
+    color: var(--iris, #4D5AE5);
 }
 
 .fillter-contact:focus {
@@ -278,7 +278,6 @@ nav li .fillter-links {
     color: var(--white, #FFFFFF);
     /* Button Text */
     font-size: 16px;
-    font-weight: 500;
     font-style: Roboto;
     line-height: 1.5;
     /* 150% */
@@ -289,6 +288,7 @@ nav li .fillter-links {
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .fillter-service-btn:hover {
@@ -455,7 +455,7 @@ li {
 }
 
 .fillter-item button{
-    --brand-color: var(--iris, #4D5AE5);
+    color: iris, #4D5AE5;
     text-align: inherit;
     /* Button Text */
     font-size: 16px;
@@ -479,7 +479,8 @@ li {
         cursor: pointer;  
 }
 
-.social-links li a {
+.social-links button{
+    color: var(--iris, #4D5AE5);
     padding: 12px 24px;
     border-radius: 4px;
     border: 1px solid var(--cornflower, #E7E9FC);
